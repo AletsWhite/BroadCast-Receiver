@@ -22,7 +22,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
         Log.d("MIBROADCASTB", actionStr);
 
         if (intent.getAction().equals(
-                Telephony.Sms.Intents.SMS_RECEIVED_ACTION) && numero.equals("4454503770")){
+                Telephony.Sms.Intents.SMS_RECEIVED_ACTION) && numero.equals("4171238872")){
 
             Bundle sms = intent.getExtras();
 
