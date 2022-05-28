@@ -11,13 +11,15 @@
         android:id="@+id/txtNumero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="4454503770"></EditText>
+        android:text="4171238872"></EditText>
 
     <EditText
+        android:id="@+id/txtMen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Mensaje"
-        android:id="@+id/txtMen"></EditText>
+        android:minHeight="48dp"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
 
     <Button
         android:layout_width="match_parent"
